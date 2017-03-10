@@ -52,7 +52,7 @@ response e.g.,
 
 b.3 (get one specific user details)
 Method: GET
-uri: http://localhost:5000/user/vichary
+uri: http://localhost:5000/users/vichary
 response e.g.,
 {
   "user": {
