@@ -58,9 +58,9 @@ def get_all_users():
         
 #
 # GET method for specified user
-# e.g., http://localhost:5000/user/vichary
+# e.g., http://localhost:5000/users/vichary
 #
-@app.route('/user/<uname>', methods=['GET'])
+@app.route('/users/<uname>', methods=['GET'])
 def get_user(uname):
     try:
         cursor = db.execute('select * from users where username=?',(uname,))
